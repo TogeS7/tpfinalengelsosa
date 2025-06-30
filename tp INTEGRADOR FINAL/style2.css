@@ -1,0 +1,188 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.contenedor-login {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.logo-cine {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-cine img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    padding: 40px;
+    background-color: #111;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.formulario label {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    padding: 10px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.formulario input:focus {
+    border-color: #888;
+}
+
+.boton {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #ccc;
+}
+
+.boton-secundario {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.boton-secundario:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.perfiles {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.perfil {
+    text-align: center;
+    background-color: #0e0e0e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 140px;
+}
+
+.perfil:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.perfil img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ffffff30;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perfil:hover img {
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.perfil p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.perfil a {
+    text-decoration: none;
+    outline: none;
+}
+
+.perfil a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.cambiar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cambiar a {
+    color: #a0a0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cambiar a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
